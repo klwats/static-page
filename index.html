@@ -3,6 +3,13 @@
   <head>
     <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Ahom&display=swap" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="https://www.flaticon.com/free-icon-font/list_3917040?related_id=3917040"> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Amatic+SC&family=Roboto+Mono:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
@@ -10,23 +17,84 @@
   </head>
   <body>
     <nav class="navBar">
-      <section>
-        <h1 class="navTitle">2Win</h1>
-        
+      <section class="iconAndAdmin">
+        <div class="rightSide">
+          <button class="adminButton">Admin Username</button>
+          <h1 class="navTitle">2Win</h1>
+        </div>
       </section>
       <section class="navBarInteractions">
         <div class="navButtons">
-          <button class="sharesButton" >SHARES</button>
-          <button class="playlists-button">PLAYLISTS</button>
-          <button class="personal-videos-button">PERSONAL VIDEOS</button>
+          <button class="button" > <img class="userImage" src="icons.png/user.png alt="> SHARES</button>
+          <button class="button"> <img class="playlistImage"  src="icons.png/list.png" alt=""> PLAYLISTS</button>
+          <button class="button"> <img class="userImage" src="icons.png/user.png alt=">PERSONAL VIDEOS</button>
         </div>
       </section>
     </nav>
-    <h1>Shares</h1>
+    <h1 class="shares">Shares</h1>
     <main>
-      <section class="cardSection" id="card-section" data-page="home">
-        <!-- Cards get added here -->
-      </section>
+      <section class="cardSection" id="card-section" >
+        <section class="card">
+            <img class="person-image card-info" src="icons.png/jonas-svidras-bgoE05DFF9U-unsplash.jpg">
+            <h1 class="recipient card-info">Recipient's Name Here</h1>\
+            <h3 class="date card-info">Monday 01/23/16 10:22am</h3>
+            <h3 class="link card-info">"http://2win.2winstage.com/p/recipents_namehere"</h3>
+            <h3 class="playlist card-info">Playlist</h3>
+            <h1 class="name-of-playlist card-info">Name of Playlist</h1>
+            <h3 class="attachments card-info">Attachments</h3>
+            <h1 class="number card-info">04</h1>
+        </section>
+        <section class="card">
+            <img class="person-image card-info" src="icons.png/jonas-svidras-bgoE05DFF9U-unsplash.jpg">
+            <h1 class="recipient card-info">Recipient's Name Here</h1>\
+            <h3 class="date card-info">Monday 01/23/16 10:22am</h3>
+            <h3 class="link card-info">"http://2win.2winstage.com/p/recip- ents_namehere"</h3>
+            <h3 class="playlist card-info">Playlist</h3>
+            <h1 class="name-of-playlist card-info">Name of Playlist</h1>
+            <h3 class="attachments card-info">Attachments</h3>
+            <h1 class="number card-info">04</h1>
+        </section>
+        <section class="card">
+            <img class="person-image card-info" src="icons.png/jonas-svidras-bgoE05DFF9U-unsplash.jpg">
+            <h1 class="recipient card-info">Recipient's Name Here</h1>\
+            <h3 class="date card-info">Monday 01/23/16 10:22am</h3>
+            <h3 class="link card-info">"http://2win.2winstage.com/p/recipents_namehere"</h3>
+            <h3 class="playlist card-info">Playlist</h3>
+            <h1 class="name-of-playlist card-info">Name of Playlist</h1>
+            <h3 class="attachments card-info">Attachments</h3>
+            <h1 class="number card-info">04</h1>
+        </section>
+        <section class="card">
+            <img class="person-image card-info" src="icons.png/jonas-svidras-bgoE05DFF9U-unsplash.jpg">
+            <h1 class="recipient card-info">Recipient's Name Here</h1>\
+            <h3 class="date card-info">Monday 01/23/16 10:22am</h3>
+            <h3 class="link card-info">"http://2win.2winstage.com/p/recipents_namehere"</h3>
+            <h3 class="playlist card-info">Playlist</h3>
+            <h1 class="name-of-playlist card-info">Name of Playlist</h1>
+            <h3 class="attachments card-info">Attachments</h3>
+            <h1 class="number card-info">04</h1>
+        </section>
+        <section class="card">
+            <img class="person-image card-info" src="icons.png/jonas-svidras-bgoE05DFF9U-unsplash.jpg">
+            <h1 class="recipient card-info">Recipient's Name Here</h1>\
+            <h3 class="date card-info">Monday 01/23/16 10:22am</h3>
+            <h3 class="link card-info">"http://2win.2winstage.com/p/recipents_namehere"</h3>
+            <h3 class="playlist card-info">Playlist</h3>
+            <h1 class="name-of-playlist card-info">Name of Playlist</h1>
+            <h3 class="attachments card-info">Attachments</h3>
+            <h1 class="number card-info">04</h1>
+        </section>
+        <section class="card">
+            <img class="person-image card-info" src="icons.png/jonas-svidras-bgoE05DFF9U-unsplash.jpg">
+            <h1 class="recipient card-info">Recipient's Name Here</h1>\
+            <h3 class="date card-info">Monday 01/23/16 10:22am</h3>
+            <h3 class="link card-info">"http://2win.2winstage.com/p/recipents_namehere"</h3>
+            <h3 class="playlist card-info">Playlist</h3>
+            <h1 class="name-of-playlist card-info">Name of Playlist</h1>
+            <h3 class="attachments card-info">Attachments</h3>
+            <h1 class="number card-info">04</h1>
+        </section>
+      </section>  
     </main>
     
   </body>
