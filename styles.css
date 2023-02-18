@@ -1,7 +1,6 @@
 * {
     /* border: solid green; */
     font-family: Roboto Mono, serif;
-    
 }
 
 body {
@@ -12,47 +11,43 @@ body {
     justify-content: space-between;
     margin: 0;
     overflow: hidden;
-    width: 100vw;
-    
+    width: 100vw; 
   }
 
 nav {
     background-color: black;
     width: 100%;
     height: 10rem;
-    /* display: flex; */
-    /* align-items: center; */  
+    display: flex;
+    align-items: center; 
+    flex-direction: row-reverse; 
 }
 
 .iconAndAdmin {
     display: flex;
-    justify-content: end;
+   
     align-items: flex-end; 
     padding-right: 20px;
     flex-direction: column;
-    margin-left: 70%;
-    max-width: 500px;
+    margin-left: 40%;
+    /* max-width: 800px; */
+    padding-left: 40px;
+    width: 500px;
 }
 
 .navBarInteractions {
     width: 50%;
     height: 4rem;
+    margin-top: 50px
     
-
 }
 
 .shares {
     font-size: 40px;
-    margin: 30px;
-    
-    
+    margin: 30px;  
 }
 
-.userImage, .playlistImage {
-    height: 20px;
-    width: 20px;
-    background-size: 150px;
-}
+
     
 .cardSection {
     width: 100%;
@@ -62,9 +57,9 @@ nav {
     width: fit-content;
     display: flex;
     justify-content: center;
-    gap: 1rem;
-   /* // width: 300; */
-
+    flex-wrap: wrap;
+    gap: 1rem;  
+    
     
 }
 
@@ -74,7 +69,7 @@ nav {
     border-radius: 15px;
     display: flex;
     flex-direction: column;
-    height: 100%;
+    height: auto;
     justify-content: space-between;
     position: relative;
     width: 20vw; 
@@ -82,16 +77,18 @@ nav {
 
 main {
     display: flex;
-    
     height: 60vh;
     overflow-x: auto;
-    overflow-y: hidden;
+    overflow-y: auto;
     width: 100vw;
-
+    background-color: white;
 }
 
 .navTitle {
     color: white;
+    height: 3rem;
+    font-size: 120px;
+    margin-bottom: 0px  
 }
 
 .navButtons {
@@ -99,8 +96,7 @@ main {
     justify-content: space-around;
     align-items: flex-start;
     width: 100%;
-    height: 4rem;
-    
+    height: 4rem;   
 }
 
 
@@ -109,13 +105,14 @@ main {
     margin-top: 20px;
     border: none;
     background: none;
-    color: rgb(0, 157, 255)
-
-
+    color: rgb(0, 157, 255);
+    width: 200px;
+    height: 10px;
 }
 
 .navTitle {
-    font-size: 14px;
+    font-size: 50px;
+    margin-bottom: 30px;
 }
 
 .button {
@@ -130,9 +127,8 @@ main {
 }
 
 .personImage {
-    height: 30%;
-    width: 100%;
-
+  height: auto;
+  max-width: 100%;
 }
 
 .recipient {
@@ -141,24 +137,113 @@ main {
     width: 100%;
     margin-top: 5px;
     margin-bottom: 5px;
-
-
 }
 
 .date {
     margin-top: -20px;
     font-size: 10px;
+    margin-left: 20px;
 }
 
 .card-info {
-    width: 100%;
+    width: 100%;   
 }
 
 .link {
     display: flex;
     flex-wrap: wrap;
-    background-color: grey;
+    background-color: rgb(184, 179, 179);
     font-size: 10px;
     overflow-wrap: break-word;
     width: 80%;
 }
+
+.playlist,
+.attachments {
+    font-size: 12px;
+    margin-bottom: 2px;
+    margin-left: 20px;
+}
+
+
+
+.playlist-image,
+.shares-image,
+.user-image {
+    height: 1.5vh;
+    width: 1.5vw;
+    height: auto;
+    max-width: 100%;
+    background-color:none; 
+    margin-top: 30px
+}
+
+
+
+.name-of-playlist {
+    font-size: 14px;
+    margin-top: 0px;
+    margin-left: 20px;
+}
+
+.number {
+    font-size: 30px;
+    color: rgb(0, 157, 255);
+    margin-top: 0px;
+    margin-left: 20px;
+}
+
+.twowin-image {
+    background-color: none;
+    height: 50px;
+    
+    
+}
+
+.button-container{
+    display:inline-block;
+    position:relative;
+    }
+    
+.button-container .button{
+    position: absolute;
+    top:0.05em;
+    left:0.05em;
+    background-color:none;
+    border-radius:60em;
+    color:white;
+    text-transform:uppercase;
+    padding:1em 1.5em;
+    height: 3rem
+    }
+
+.views,
+.view-count {
+    position: absolute;
+    top: 0em;
+    right: 0em;
+    background-color:none;
+    /* border-radius:60em; */
+    color:white;
+    text-transform:uppercase;
+    padding:1em 1.5em;
+    height: 5px;
+    width: 2rem;
+    margin-right: 2px;
+    color: white
+
+    }
+
+.views {
+    padding-top: 0px;
+    font-size: 14px;
+    
+}
+
+.view-count {
+    margin-top: 2px;
+}
+
+
+
+    
